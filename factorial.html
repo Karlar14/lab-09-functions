@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function factorial(n){ // this is a function
+        var total = 1;    // variable of total equals 1
+        for (i = 0; i < n; i++){  //
+          total = total *(n-i);
+          console.log("Current i is " + i);
+          console.log("Current value of tool is " + total);
+        }
+        return total;
+    }// end of the function
+    var userstring = prompt("number please: ")
+    var usernum = parseInt(userstring);
+
+    console.log(usernum + " ! is " + factorial(usernum));
+
+    </script>
+
+  </body>
+</html>
